@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans',sans-serif;
+}
+h6{
+    font-size:14px;
+}
+
+body{
+   background-color: #f8f8f8;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.app{
+    width: 470px;
+   border-radius: 3px;
+   border: 1px solid #eee;
+   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+   background-color: #fff;
+}
+.title-app h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #909090;
+}
+.title-app .btn-outline-warning{
+    font-weight: bold;
+    font-size: 6px;
+    padding: 2px 4px;
+    height: 17px;
+}
+.title-app .btn-outline-light{
+    font-weight: bold;
+    font-size: 6px;
+    padding: 2px 4px;
+    height: 17px;
+    color: #ffc107 ;
+    border-color: #ffc107;
+}
+.title-app .btn-outline-warning:hover{
+ background-color: #fff;
+ color: #ffc107;
+}
+.title-app .btn-outline-light:hover{
+    background-color: #fff;
+    color: #ffc107;
+}
+
+.error{
+    border: 1px solid red;
+}
+.hours, .minutes{
+  width: 190px;
+}
+.inputs label{
+    color: #909090;
+}
+.form-control{
+    width: auto;
+    height: auto;
+    color: #909090;
+}
+.form-control::placeholder{
+    padding-left: 10px;
+    color: #e7e7e7;
+}
+
+.btn-success{
+    background-color: #47af2b;
+    padding: 0px 5px;
+}
+.show-angle-result{
+    background-color:#fbf9d6;
+    height: 94px;
+}
+
+.show-angle-result h3{
+    font-size: 14px;
+}
+.angle-value{
+ width: 70px;
+ height: 45px;
+ background-color: #fff;
+ margin-left: 160px;
+ font-size: 25px;
+ color: grey;
+}
+
+.angle-value::placeholder{
+    font-size: 30px;
+    text-align: center;
+}
+

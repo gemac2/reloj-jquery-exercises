@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise-jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/get_angle.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/get_angle.css">
+    
+</head>
+<body>
+   
+    <div class="app container mt-4">
+        <div class="container">
+            <div class="title-app mt-4 d-flex justify-content-between">
+                <h1>Get angleºvalue with specific time.</h1>
+                <button type="button" class="btn btn-outline-warning ">Change Layout</button>
+                <button type="button" class="btn btn-outline-light remove d-none ">Change Layout</button>
+            </div>
+            <hr>
+            <div class="error text-center d-none rounded">
+                <h6 class="mt-1">Bad Request</h6>
+            </div>
+            <div class="inputs d-flex justify-content-between">
+                <div class="hours d-flex flex-column ">
+                    <label class="hours-title " for="">Hours</label>
+                    <input type="number" placeholder="Hours" id="hours" class="form-control number p-0 ">
+                </div>
+                <div class="minutes d-flex flex-column ">
+                    <label class="minutes-title " for="">Minutes</label>
+                    <input type="number" placeholder="Minutes" id="minutes" class="form-control p-0">
+                </div>
+            </div>
+            <div class="button">
+                <button type="button" class=" mt-2 btn btn-success w-100">Send Information</button>
+            </div>
+            <div class="show-angle-result mt-3 text-center w-100 mb-3">
+                <h3 class="pt-3">Add hours and minutes to get an angle</h3>
+                <div class="angle-value border-0 d-flex align-items-center justify-content-center">0º</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
