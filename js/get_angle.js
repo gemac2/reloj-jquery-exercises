@@ -30,8 +30,9 @@ $(document).ready(function(){
             $("h3").text("At" + " " + hours + " " + text1 + " " + "with" + " " + minutes  + " " + text2 + " " + "there's an angle off:")
             angleHours = hours*30
             angleMinutes = minutes*6
+            angle = minutes/2
             anglePartial = angleHours-angleMinutes
-            angleTotal =  ( 360-anglePartial)
+            angleTotal =  ( 360-anglePartial-angle)
             $(".angle-value").text(angleTotal+"º");
          }else{
             if (hours >0) {
@@ -43,7 +44,8 @@ $(document).ready(function(){
                $("h3").text("At" + " " + hours + " " + text1 + " " + "with" + " " + minutes + " " + text2 + " " + "there's an angle off:")
                angleHours = hours*30
                angleMinutes = minutes*6
-               angleTotal = angleMinutes-angleHours
+               angle = minutes/2
+               angleTotal = angleMinutes-angleHours-angle
                $(".angle-value").text(angleTotal+"º");
             }
          }
